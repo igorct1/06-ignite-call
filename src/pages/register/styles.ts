@@ -30,6 +30,10 @@ export const Form = styled(Box, {
   label: {
     display: 'flex',
     flexDirection: 'column',
-    gap: '$2',
+    gap: '$',
   },
+})
+
+export const FormError = styled(Text, {
+  color: '#f75a68',
 })
