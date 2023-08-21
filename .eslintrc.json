@@ -1,8 +1,9 @@
 {
     "extends": [
-      "@rocketseat/eslint-config/next"
+      "@rocketseat/eslint-config/react"
     ],
     "rules": {
-        "@typescript-eslint/no-non-null-assertion": true
-      }
-}
+      "camelcase": "off",
+      "@typescript-eslint/no-non-null-assertion": "off"
+    }
+  }
